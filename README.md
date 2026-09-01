@@ -1,2 +1,13 @@
-# ask-eddie-seo-library
-Open cancer equity SEO library for AskEddie (Markdown content)
+# ask-eddie-seo-library/
+ask-eddie-seo-library/
+   README.md
+   LICENSE   
+   disparities/
+   symptoms/
+   pathology/
+   treatments/
+   side-effects/
+   screening/
+   survivorship/
+
+
