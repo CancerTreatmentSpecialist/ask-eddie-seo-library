@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Screening | CancerLess Reference Library</title>
+<style>
+  :root {
+    --teal: #4FB6B8;
+    --teal-dark: #3A9A9C;
+    --teal-light: #E6F6F6;
+    --text-dark: #1F2937;
+    --text-muted: #6B7280;
+    --bg: #F7F9FA;
+    --card-bg: #FFFFFF;
+    --border: #EDEFF1;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--text-dark);
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .header {
+    padding: 24px 20px 16px 20px;
+    background: var(--bg);
+  }
+
+  .header h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 4px 0;
+  }
+
+  .header p {
+    font-size: 14px;
+    color: var(--text-muted);
+    margin: 0;
+    line-height: 1.4;
+  }
+
+  .list {
+    padding: 8px 16px 24px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  a.card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.1s ease;
+  }
+
+  a.card:active {
+    transform: scale(0.98);
+    background: var(--teal-light);
+  }
+
+  .icon {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: var(--teal-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+  }
+
+  .card-text {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .card-text .title {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin: 0 0 2px 0;
+  }
+
+  .card-text .desc {
+    font-size: 12.5px;
+    color: var(--text-muted);
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .chevron {
+    flex-shrink: 0;
+    color: #C7CCD1;
+    font-size: 18px;
+  }
+
+  .disclaimer {
+    margin: 8px 16px 32px 16px;
+    padding: 14px 16px;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    font-size: 11.5px;
+    line-height: 1.5;
+    color: var(--text-muted);
+  }
+</style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Screening</h1>
+    <p>Guidance on when and how to get screened, by cancer type.</p>
+  </div>
+
+  <div class="list">
+
+    <a class="card" href="breast-cancer-screening.html">
+      <div class="icon">🎗️</div>
+      <div class="card-text">
+        <p class="title">Breast Cancer Screening</p>
+        <p class="desc">Mammogram guidelines and when to start</p>
+      </div>
+      <div class="chevron">›</div>
+    </a>
+
+    <a class="card" href="cervical-cancer-screening.html">
+      <div class="icon">🩺</div>
+      <div class="card-text">
+        <p class="title">Cervical Cancer Screening</p>
+        <p class="desc">Pap smears, HPV testing, and timing</p>
+      </div>
+      <div class="chevron">›</div>
+    </a>
+
+    <a class="card" href="colorectal-cancer-screening.html">
+      <div class="icon">🎯</div>
+      <div class="card-text">
+        <p class="title">Colorectal Cancer Screening</p>
+        <p class="desc">Colonoscopy and at-home test options</p>
+      </div>
+      <div class="chevron">›</div>
+    </a>
+
+    <a class="card" href="liver-cancer-screening.html">
+      <div class="icon">🫀</div>
+      <div class="card-text">
+        <p class="title">Liver Cancer Screening</p>
+        <p class="desc">Guidelines for cirrhosis and high-risk patients</p>
+      </div>
+      <div class="chevron">›</div>
+    </a>
+
+    <a class="card" href="lung-cancer-screening.html">
+      <div class="icon">🫁</div>
+      <div class="card-text">
+        <p class="title">Lung Cancer Screening</p>
+        <p class="desc">Low-dose CT scans and who qualifies</p>
+      </div>
+      <div class="chevron">›</div>
+    </a>
+
+    <a class="card" href="pancreatic-cancer-screening.html">
+      <div class="icon">🔶</div>
+      <div class="card-text">
+        <p class="title">Pancreatic Cancer Screening</p>
+        <p class="desc">Guidelines for high-risk individuals</p>
+      </div>
+      <div class="chevron">›</div>
+    </a>
+
+    <a class="card" href="prostate-cancer-screening.html">
+      <div class="icon">🔵</div>
+      <div class="card-text">
+        <p class="title">Prostate Cancer Screening</p>
+        <p class="desc">PSA testing and shared decision-making</p>
+      </div>
+      <div class="chevron">›</div>
+    </a>
+
+    <a class="card" href="skin-cancer-screening.html">
+      <div class="icon">☀️</div>
+      <div class="card-text">
+        <p class="title">Skin Cancer Screening</p>
+        <p class="desc">Self-exams and when to see a dermatologist</p>
+      </div>
+      <div class="chevron">›</div>
+    </a>
+
+    <a class="card" href="testicular-cancer-screening.html">
+      <div class="icon">🔷</div>
+      <div class="card-text">
+        <p class="title">Testicular Cancer Screening</p>
+        <p class="desc">Self-exams and risk awareness</p>
+      </div>
+      <div class="chevron">›</div>
+    </a>
+
+  </div>
+
+  <div class="disclaimer">
+    This information is for general educational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment. Always consult a qualified healthcare provider with questions about your health.
+  </div>
+
+</body>
+</html>
